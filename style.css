@@ -2,10 +2,6 @@ body {
   margin: 0;
 }
 
-img {
-  opacity: 0.5;
-}
-
 .hero {
   width: 100vw;
   height: 100vh;
@@ -27,7 +23,6 @@ img {
 
 .btn {
   color: orange;
-  margin-top: 10px;
   padding: 10px;
   border-radius: 20px;
   border: 3px solid orange;
@@ -35,64 +30,154 @@ img {
 }
 
 .btn:hover {
-  color: black;
   background-color: orange;
+  color: black;
 }
 
-h1 {
+.hero-inner {
   color: orange;
 }
 
-h2 {
-  color: orange;
-}
-
-/* Homepage 2 */
-
-.navigationhero {
-  background-image: url(/HTML.BILDER/Bild.2.jpg);
-
-  background-position: center;
+body {
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
-  width: 100vw;
-}
-
-.topnav {
-  background-color: darkorange;
-  overflow: hidden;
-}
-
-.topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 15px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  color: black;
-  background-color: orange;
-}
-
-.hb {
+  background-size: contain;
+  background-size: 100% 100%;
+  min-height: 100vh;
   background-color: black;
 }
 
-.hb a {
-  float: left;
-  color: white;
-  text-align: center;
-  padding: 15px 16px;
-  text-decoration: none;
-  font-size: 17px;
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.hb a:hover {
+nav a {
+  color: orange;
+  border: 2px solid orange;
+  padding: 16px;
+  border-radius: 2em;
+  text-decoration: none;
+  margin-top: 5px;
+}
+
+nav a:hover {
   color: black;
-  background-color: white;
+  background-color: darkorange;
+}
+
+/* Texten i hompage2.html*/
+
+.homepagetext {
+  width: 45vw;
+  margin: auto;
+  color: orange;
+  padding-top: 15vh;
+}
+
+h4 {
+  text-align: center;
+}
+
+/* Innehållet i Moïse.html*/
+
+.moisecontent {
+  color: orange;
+
+  width: 45vw;
+  margin: auto;
+  color: orange;
+  padding-top: 15vh;
+}
+p {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  background-color: black;
+}
+
+.g-image {
+  text-align: center;
+}
+
+/* Innehållet i Hobbies.html*/
+
+.hobbies-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.hobbies-content a {
+  text-decoration: none;
+  margin-top: 3em;
+  color: orange;
+  border: 2px solid orange;
+  border-radius: 3px;
+  padding: 4px;
+  margin-right: 2px;
+}
+
+.hobbies-content a:hover {
+  color: black;
+  background-color: orange;
+}
+
+.games {
+  color: orange;
+
+  width: 45vw;
+  margin: auto;
+  color: orange;
+  padding-top: 15vh;
+}
+
+.series {
+  color: orange;
+
+  width: 45vw;
+  margin: auto;
+  color: orange;
+  padding-top: 15vh;
+}
+
+.movies {
+  color: orange;
+
+  width: 45vw;
+  margin: auto;
+  color: orange;
+  padding-top: 15vh;
+}
+
+.music {
+  color: orange;
+
+  width: 45vw;
+  margin: auto;
+  color: orange;
+  padding-top: 15vh;
+}
+
+.hobbies-end {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 2px solid orange;
+}
+
+.hobbies-end a {
+  color: orange;
+  text-decoration: none;
+}
+
+.game-image {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
 }
